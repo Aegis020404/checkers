@@ -1,0 +1,34 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contrainer {
+
+}
+.title {
+  text-align: center;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+
+}
+.cell {
+  width: 60px;
+  height: 60px;
+}
+.color1 {
+  background: #f0d9b5;
+}
+.color2 {
+  background: #b58863;
+}
