@@ -3,7 +3,7 @@
   height: 100vh;
 }
 .wrap1 {
-  background-image: url("img/background.png");
+  background-image: url("img/background.svg");
   background-size: 100%;
   height: 100vh;
   display: flex;
@@ -105,10 +105,10 @@
   background: blue;
 }
 .wrapBoard {
-  background-image: url("img/board.png");
+  background-image: url("img/board.svg");
   background-size: 100%;
-  width: 630px;
-  height: 630px;
+  width:  590px;
+  height: 590px;
   display: flex;
   justify-content: center;
   align-items: center;
